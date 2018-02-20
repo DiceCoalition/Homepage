@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<title>The Dice Coalition</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://dicecoalition.com/css/general.css">
+<link rel="stylesheet" href="http://dicecoalition.com/css/theme.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--favicons-->
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="theme-color" content="#ffffff">
+
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<body id="myPage" style="background-color:#ebebeb">
+
+<!--Navbar-->
+<div w3-include-html="topbar.html"></div>
+
+<!-- Image Header -->
+<div class="w3-content2 w3-display-container" style="top:38.4px; bottom-padding:38.4px;">
+    <div class="mySlides w3-animate-right dice-home-slider1" onclick="window.open('https://player.fm/series/the-ministry-of-dice-a-uk-dice-masters-podcast/br6-ep-15-spanky-says-send-us-some-more-free-stuff'); return false;"></div>
+    <div class="mySlides w3-animate-right dice-home-slider2" onclick="window.open('https://www.youtube.com/watch?v=lzSp8Bz-ynQ'); return false;"></div>
+    <div class="mySlides w3-animate-right dice-home-slider3" onclick="window.open('http://ktdata.net/category/dice-masters/'); return false;"></div>
+    <div class="mySlides w3-animate-right dice-home-slider4" onclick="window.open('http://gamingwithsidekicks.com/2018/02/15/414/'); return false;"></div>
+    <div class="mySlides w3-animate-right dice-home-slider5" onclick="window.open('https://thegeekkitty.wordpress.com/2018/02/14/dice-masters-confusing-card-of-the-week-124-heimdall-the-all-seeing/'); return false;"></div>
+    <div class="mySlides w3-animate-right dice-home-slider6" onclick="window.open('https://www.youtube.com/watch?v=654qxt7hdpc'); return false;"></div>
+
+    <div class="w3-center w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-chevron-left tdc-dk-blue-bg" style="padding:7px 10px 7px 8px; border-radius:15px"></i></div>
+    <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-chevron-right tdc-dk-blue-bg"style="padding:7px 8px 7px 10px; border-radius:15px"></i></div>
+    <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+    <span class="w3-badge demo w3-border" onclick="currentDiv(4)"></span>
+    <span class="w3-badge demo w3-border" onclick="currentDiv(5)"></span>
+    <span class="w3-badge demo w3-border" onclick="currentDiv(6)"></span>
+  </div>
+</div>
+<div style="height:38.4px"></div>
+
+<!--Content Flexbox-->
+<div style="display:flex; justify-content:center;">
+<div class="flex-container">
+
+<!-- SubFlexboxes -->
+  <div class="w3-container w3-padding-16 w3-margin w3-round-small tdc-neutral subflex" id="news">
+    <h2 class="tdc-lt-blue-bg w3-round-small w3-center">News</h2>
+    <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="64802/"></script> <!-- end feedwind code -->
+  </div>
+  <div class="w3-container w3-padding-16 w3-margin tdc-neutral subflex" id="blog">
+    <h2 class="tdc-lt-blue-bg w3-round-small w3-center">Articles</h2>
+    <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="65038/"></script> <!-- end feedwind code -->
+  </div>
+  <div class="w3-container w3-padding-16 w3-margin tdc-neutral subflex" id="podcast">
+    <h2 class="tdc-lt-blue-bg w3-round-small w3-center">Media</h2>
+    <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="63933/"></script> <!-- end feedwind code -->
+  </div>
+  <div class="w3-container w3-padding-16 w3-margin tdc-neutral subflex" id="links">
+    <h2 class="tdc-lt-blue-bg w3-round-small w3-center">Recent Rulings</h2>
+    <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="63984/"></script> <!-- end feedwind code -->
+  </div>
+  
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-8 w3-theme-d1 w3-center">
+  <h4>Follow Us</h4>
+  <a class="w3-button w3-large tdc-lt-blue-bg" href="https://www.facebook.com/dicecoalition/" target="_blank" title="Facebook"><span style="padding-left:4px; padding-right:4px"><i class="fa fa-facebook"></i></span></a>
+  <a class="w3-button w3-large tdc-lt-blue-bg" href="https://twitter.com/dice_coalition" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <p><a href="mailto:thedicecoalition@gmail.com">Contact Us</a></p>
+  <p><a href="http://dicecoalition.com/privacypolicy.html" target="_blank">Privacy Policy</a></p>
+  <p>Template courtesy <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding tdc-dk-blue-bg w3-hide-small" style="color:#d9b310!important">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+  //navbar
+  w3.includeHTML();
+  // Used to toggle the menu on smaller screens when clicking on the menu button
+  function openNav() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+      } else { 
+          x.className = x.className.replace(" w3-show", "");
+      }
+  }
+  // For slide show
+  var slideIndex = 0;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function currentDiv(n) {
+    showDivs(slideIndex = n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    if (n > x.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+   
+    for (i = 0; i < dots.length; i++) {
+       dots[i].className = dots[i].className.replace(" w3-white", "");
+    }
+    x[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " w3-white";
+  }
+  carousel();
+
+  function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      if (slideIndex > x.length) {slideIndex = 1}    
+      x[slideIndex-1].style.display = "block";  
+      setTimeout(carousel, 8000);   
+      plusDivs(1)
+  }
+
+  </script>
+</body>
+</html>
+
+<!--<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>-->
+
+<!-- Sidebar on click -->
+<!-- <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav>-->
+
+<!-- Modal -->
+<!--
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+-->
