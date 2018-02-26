@@ -1376,6 +1376,16 @@ a{
 	background-image: url(../images/zach-and-pope-background.png),url(../images/zach_james_background.jpg);
 	cursor: pointer;
   }
+
+  .dice-home-slider7{
+	width:100%; 
+	min-height:300px; 
+	background-size:auto 250px, cover; 
+	background-position: center center, center center; 
+	background-repeat: no-repeat, no-repeat; 
+	background-image: url(../images/theDiceCoalitionBannerTextAndBanner_Template2.png),url(../images/theDiceCoalitionBannerTextAndBanner_Template1.jpg);
+	cursor: pointer;
+  }
   .w3-bar a:hover{
   text-decoration:none!important;
   }
