@@ -313,10 +313,12 @@ a{
 	background-color:#1d2731;color:#fff
 	}
 
-.w3-dropdown-content,.w3-sub-dropdown-content{
+.w3-dropdown-content{
 	cursor:auto;color:#fff;background-color:#1d2731;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1
 	}
-
+.w3-sub-dropdown-content{
+	cursor:auto;color:#fff;background-color:#2e3842;display:none;position:absolute;left:20px;min-width:160px;margin:0;padding:0;z-index:1
+	}
 .w3-check,.w3-radio{
 	width:24px;height:24px;position:relative;top:6px
 	}
