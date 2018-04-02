@@ -313,7 +313,7 @@ a{
 	background-color:#1d2731;color:#fff
 	}
 
-.w3-dropdown-content,.w3-sub-dropdown-content{
+.w3-dropdown-content{
 	cursor:auto;color:#fff;background-color:#1d2731;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1
 	}
 
@@ -332,16 +332,8 @@ a{
 .w3-bar-block .w3-dropdown-hover .w3-dropdown-content,.w3-bar-block .w3-dropdown-click .w3-dropdown-content{
 	min-width:100%
 	}
-  
-.w3-bar-block .w3-sub-dropdown-hover .w3-sub-dropdown-content,.w3-bar-block .w3-dropdown-click .w3-dropdown-content{
-	min-width:100%
-	}
 
 .w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{
-	width:100%;text-align:left;padding:8px 16px
-	}
-  
-.w3-bar-block .w3-sub-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{
 	width:100%;text-align:left;padding:8px 16px
 	}
 
@@ -369,10 +361,6 @@ a{
 	}
 
 .w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click{
-	position:static;float:right
-	}
-
-.w3-bar .w3-sub-dropdown-hover,.w3-bar .w3-dropdown-click{
 	position:static;float:right
 	}
 
@@ -534,19 +522,16 @@ a{
 .w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{
 	position:relative
 	}
-.w3-sub-dropdown-hover.w3-mobile .w3-sub-dropdown-content,.w3-dropdown-click.w3-mobile .w3-sub-dropdown-content{
-	position:relative
-	}
 .w3-hide-small{
 	display:none!important
 	}
 .w3-mobile{
 	display:block;width:100%!important
 	}
-.w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile,.w3-sub-dropdown-hover.w3-mobile{
+.w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{
 	text-align:center
 	}
-.w3-dropdown-hover.w3-mobile,.w3-sub-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{
+.w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .w3-btn,.w3-dropdown-hover.w3-mobile .w3-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .w3-btn,.w3-dropdown-click.w3-mobile .w3-button{
 	width:100%
 	}
 .subflex{
