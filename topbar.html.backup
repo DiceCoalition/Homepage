@@ -8,15 +8,6 @@
   <div class="w3-dropdown-hover w3-hide-small">
     <button class="w3-button" title="Community">Community <i class="fa fa-caret-down"></i></button>
     <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-      <div class="w3-sub-dropdown-hover">
-        <a href="http://dicecoalition.com/tiki/tiki-index.php?page=Online+Play&structure=New+Players" class="w3-bar-item w3-button">Online Play <i class="fa fa-caret-down"></i></a>
-        <div class="w3-sub-dropdown-content w3-card-4 w3-bar-block">
-          <a href="https://hangouts.google.com/hangouts/_/3o3cuss4erbizpfiv4stqmcqzye" target="_blank" class="w3-bar-item w3-button">Room 1</a>
-          <a href="https://hangouts.google.com/hangouts/_/yavwwj66nze77okn5cwzbxt42me" target="_blank" class="w3-bar-item w3-button">Room 2</a>
-          <a href="https://hangouts.google.com/hangouts/_/fig3nnvfvjcuddg2dpfgqnglx4e" target="_blank" class="w3-bar-item w3-button">Room 3</a>
-          <a href="https://hangouts.google.com/hangouts/_/jfoh7dr7ffcvvlfjf3rshkcovme" target="_blank" class="w3-bar-item w3-button">Room 4</a>
-        </div>
-      </div>
       <a href="http://dicecoalition.com/tiki/tiki-list_blogs.php" class="w3-bar-item w3-button">Blogs</a>
       <a href="http://dicecoalition.com/tiki/tiki-index.php?page=Create+an+Article&structure=Community" class="w3-bar-item w3-button">Create an Article/Blog</a>
       <a href="http://dicecoalition.com/tiki/tiki-index.php?page=Events&structure=Community" class="w3-bar-item w3-button">Events</a>
@@ -48,7 +39,7 @@
       <a href="http://dicecoalition.com/tiki/tiki-index.php?page=Where+to+Trade&structure=New+Players" class="w3-bar-item w3-button">Where to Trade</a>
       <a href="http://dicecoalition.com/tiki/tiki-index.php?page=Gear+and+Storage&structure=New+Players" class="w3-bar-item w3-button">Gear and Storage</a>
       <a href="https://wizkids.com/dicemasters/dice-masters-rotation-faq/" target="_blank" class="w3-bar-item w3-button">Rotation FAQ</a>
-      
+      <a href="http://dicecoalition.com/tiki/tiki-index.php?page=Online+Play&structure=New+Players" class="w3-bar-item w3-button">Online Play</a>
     </div>
   </div>
   <div class="w3-dropdown-hover w3-hide-small">
