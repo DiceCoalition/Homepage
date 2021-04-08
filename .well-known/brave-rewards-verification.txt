@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: dicecoalition.com
+Token: c2a5995bc6f12131583a1f738ec8bc4f556ed09bb934100e4187bce5f44bc741
